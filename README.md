@@ -1,6 +1,5 @@
 # 30days2rust
 
-## Goal
 My goal here is to learn Rust in 30 Days Through 30 Projects of Increasing Complexity
 
 ### Creating a project
@@ -36,8 +35,6 @@ $> cargo build
 $> cargo run
 Hello-World!
 ```
-
 <p align="center">
   <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" width="120" alt="Rust Logo">
 </p>
-
