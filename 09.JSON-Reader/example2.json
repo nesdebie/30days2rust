@@ -1,0 +1,65 @@
+{
+    "company": "Tech Corp",
+    "employees": [
+        {
+            "name": "Jane Doe",
+            "age": 42,
+            "position": "Senior Developer",
+            "address": {
+                "street": "10 Downing Street",
+                "city": "London",
+                "country": "UK"
+            },
+            "phones": [
+                "+44 1234567",
+                "+44 2345678"
+            ],
+            "active": true
+        },
+        {
+            "name": "John Smith",
+            "age": 35,
+            "position": "DevOps Engineer",
+            "address": {
+                "street": "5th Avenue",
+                "city": "New York",
+                "country": "USA"
+            },
+            "phones": [
+                "+1 555-1234"
+            ],
+            "active": true
+        },
+        {
+            "name": "Marie Dupont",
+            "age": 28,
+            "position": "Frontend Developer",
+            "address": {
+                "street": "Rue de Rivoli",
+                "city": "Paris",
+                "country": "France"
+            },
+            "phones": [
+                "+33 1 23 45 67 89",
+                "+33 6 12 34 56 78"
+            ],
+            "active": false
+        },
+        {
+            "name": "Hans Mueller",
+            "age": 51,
+            "position": "CTO",
+            "address": {
+                "street": "Hauptstrasse 1",
+                "city": "Berlin",
+                "country": "Germany"
+            },
+            "phones": [
+                "+49 30 12345678"
+            ],
+            "active": true
+        }
+    ],
+    "founded": 2010,
+    "remote_friendly": true
+}

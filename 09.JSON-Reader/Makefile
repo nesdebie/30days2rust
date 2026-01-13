@@ -17,13 +17,14 @@ $(TARGET):
 		cargo new $(TARGET) --bin; \
 		cat ./dependencies >> $(TARGET)/Cargo.toml; \
 		cp ./example.json $(TARGET); \
+		cp ./example2.json $(TARGET); \
 	fi
 	cp $(SRC) $(TARGET)/src/
 	cd $(TARGET) && cargo build
 	@echo "$(GREEN)Build complete!\nUsage: $(RED)'cargo run example.txt'$(GREEN) in the $(RED)'$(TARGET)' dir $(GREEN)to execute the program.$(RESET)"
 
 run:
-	cd $(TARGET) && cargo run example.json
+	cd $(TARGET) && cargo run example.json && cargo run example2.json
 
 clean:
 	rm -rf $(TARGET)
